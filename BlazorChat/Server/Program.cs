@@ -1,5 +1,5 @@
 using BlazorChat.Server.Data;
-using BlazorChat.Server.Models;
+using BlazorChat.Shared;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;

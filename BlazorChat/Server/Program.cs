@@ -1,3 +1,4 @@
+using BlazorChat.Client.Manager;
 using BlazorChat.Server.Data;
 using BlazorChat.Server.SignalR;
 using BlazorChat.Shared;
@@ -25,6 +26,7 @@ builder.Services.AddAuthentication()
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
+
 
 var app = builder.Build();
 
